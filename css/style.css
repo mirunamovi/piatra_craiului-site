@@ -1,0 +1,90 @@
+table#trasee td {
+    border: 1px solid rgba(150,138,255,1.00);
+    height: 30px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+table#trasee th {
+    border: 1px solid rgba(150,138,255,1.00);
+    height: 30px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+table#apnpc th {
+    border: 1px solid rgba(150,138,255,1.00);
+    height: 30px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+    background: #AFDFDF;  /* Darken header a bit */
+	border-top: none;
+	border-bottom: none;	
+}
+
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+<m
+
+
+
+
+baner{
+	margin: 0;
+	padding: 0;
+	background: #313131;	
+}
+.slider{
+    width: 750px;
+    height: 400px;
+    background: url(../poze_slide/P8210256.JPG)  no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(../poze_slide/P8210256.JPG)  no-repeat ;
+		  background-size: cover  ;	
+		
+	}
+	50%{
+		background: url(../poze_slide/P8210293.JPG)  no-repeat ;
+				  background-size: cover ;	
+	}
+	75%{
+		background: url(../poze_slide/P7270120.jpg)  no-repeat ;
+				  background-size: cover ;	
+	}
+	100%{
+		background: url(../poze_slide/PA060059.jpg)  no-repeat ;
+				  background-size: cover ;	
+	}
+	
+	
+}

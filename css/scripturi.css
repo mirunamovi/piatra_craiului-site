@@ -1,0 +1,148 @@
+#parinte
+{
+	width: 750px;
+	background-color: White;
+	line-height: 17px;
+}
+#sus
+{
+	width: 750px;
+	height: 51px;
+	background-image: url(../imagini/logofacut4.gif);
+	background-repeat: no-repeat;
+}
+#sus_dr
+{
+	float: right;
+	margin-right: 0px;
+}
+#baner
+{
+	width: 300px;
+	margin-bottom: 10px;
+}
+#cuprins
+{
+	width: 750px;
+}
+#cuprins_r
+{
+    width: 730px;
+    background-image: url(../imagini/m_regulament01.jpg);
+    background-repeat: no-repeat;
+    background-position : right ;
+	
+} 
+#cuprins_rr
+{
+    width: 730px;
+    background-image: url(../imagini/m_regulament02.jpg);
+    background-repeat: no-repeat;
+    background-position : right ;
+	
+} 
+#cuprins_st
+{
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+#cuprins_dr
+{
+	float: right;
+	width: 370px;
+	margin-right: 10px;
+	background-image: url(../imagini/contact3.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+#copy
+{
+	float: left;
+	width: 750px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	border-top: 1px solid #796339;
+}
+#copy_dr
+{
+	float: center;
+	margin-top: 20px;
+	background-image: url(../imagini/Untitled11.png);
+	width: 750px;
+	height: 70px;
+}
+#copy_st
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.font1
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #796339;
+}
+.font2
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #796339;
+}
+.font3{
+	 font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #796339;
+	
+	
+}
+.meniu1 {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.meniu1 a {
+	color: #796339;
+	text-decoration: none;
+}
+.meniu1 a:hover {
+	text-decoration: none ;
+	color: #40341E;
+}
+.meniu2 {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.meniu2 a {
+	color: #2D2614;
+	text-decoration: none;
+}
+.meniu2 a:hover {
+	text-decoration: none;
+	color: #8F7940;
+}
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
